@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: white;
+    height: 11vh;
+    width: 100%;
+}
+
+.logo{
+    width: 28vh;
+    height: 11vh;
+}
+
+nav{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    color: hotpink;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+
+a{
+    color: hotpink;
+    text-decoration: hotpink; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 89vh;
+    background-image: linear-gradient(45deg, rgb(252, 74, 166), pink);
+    background-size: 100%;
+}
+
+main{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tudo{
+    width: 20vw;
+    height: 46vh;
+    border-radius: 15px;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.imagens{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 15px;
+    filter: drop-shadow(1vh 1vh 1vh black);
+}
+
+.segundo{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tudo:hover{
+    transform: scale(1.05)
+}
